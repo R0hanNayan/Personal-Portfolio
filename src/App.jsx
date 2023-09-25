@@ -11,10 +11,10 @@ function App() {
           <Hero />
         </div>
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="realtive z-0">
           <Contact />
           <StarsCanvas />

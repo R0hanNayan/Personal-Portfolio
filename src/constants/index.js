@@ -47,15 +47,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "MERN Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Software Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Problem Solver",
       icon: creator,
     },
   ];
