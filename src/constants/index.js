@@ -24,6 +24,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    dailyScribble,
+    socialSphere, 
+    keeper
   } from "../assets";
   
   export const navLinks = [
@@ -200,7 +203,7 @@ import {
           color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
+      image: dailyScribble,
       source_code_link: "https://github.com/R0hanNayan/Daily-Scribble-2.0",
     },
     {
@@ -225,7 +228,7 @@ import {
           color: "yellow-text-gradient",
         },
       ],
-      image: jobit,
+      image: socialSphere,
       source_code_link: "https://github.com/R0hanNayan/socialsphere",
     },
     {
@@ -242,7 +245,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: keeper,
       source_code_link: "https://github.com/R0hanNayan/Keeper",
     },
   ];

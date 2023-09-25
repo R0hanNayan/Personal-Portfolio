@@ -30,6 +30,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import dailyScribble from "./dailyScribble.jpg";
+import socialSphere from "./socialSphere.jpg";
+import keeper from "./keeper.jpg";
 
 export {
   logo,
@@ -61,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  dailyScribble,
+  socialSphere, 
+  keeper
 };
