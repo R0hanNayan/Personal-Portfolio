@@ -9,8 +9,17 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const Works = () => {
   return (
-    <div>Works</div>
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center`}>
+          My work
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          Projects.
+        </h2>
+      </motion.div>
+    </>
   )
 }
 
-export default Works
+export default SectionWrapper(Works, "");
