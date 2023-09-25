@@ -7,6 +7,10 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
+const ProjectCard = () =>{
+  
+}
+
 const Works = () => {
   return (
     <>
@@ -18,6 +22,24 @@ const Works = () => {
           Projects.
         </h2>
       </motion.div>
+
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          Welcome to my Projects Section, a snapshot of my journey where I've brought ideas to life, solved challenges, and made an impact. These projects reflect my passion for creativity and problem-solving. Dive in and witness the results of my dedication and expertise.
+        </motion.p>
+      </div>
+      <div className='mt-20 flex flex-wrap gap-7'>
+        {projects.map((project, index) => {
+          <ProjectCard 
+            key={`project-${index}`}
+            index={index}
+            {...project}
+          />
+        })}
+      </div>
     </>
   )
 }
