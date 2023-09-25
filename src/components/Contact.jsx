@@ -6,6 +6,10 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+//template_1lcc8k2
+//service_imgvukd
+//q7diyQ52gQOTACCZX
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -16,10 +20,36 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
-
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value })
   }
   const handleSubmit = (e) => {
-
+    e.preventDefault();
+    setLoading(true);
+    emailjs.send(
+      "service_imgvukd", 
+      "template_1lcc8k2", 
+      {
+        from_name : form.name,
+        to_name: 'Rohan',
+        from_email: form.email,
+        to_email: 'rohannayan405@gmail.com',
+        message: form.message,
+      },
+      "q7diyQ52gQOTACCZX"
+    ).then(()=>{
+      setLoading(false);
+      alert('Thank You, I will get back to you as soon as possible.');
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    }, (err) => {
+      setLoading(false);
+      console.log(err);
+      alert('Something Went Wrong!');
+    })
   }
 
   return (
