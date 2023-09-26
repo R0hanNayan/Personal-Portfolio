@@ -64,14 +64,14 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "C++",
       icon: cpp,
@@ -92,10 +92,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
   ];
   
   const experiences = [
