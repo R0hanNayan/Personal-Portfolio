@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 import dailyScribble from "./dailyScribble.jpg";
 import socialSphere from "./socialSphere.jpg";
 import keeper from "./keeper.jpg";
+import backIt from "./backIt.jpg";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   tripguide,
   dailyScribble,
   socialSphere, 
-  keeper
+  keeper,
+  backIt
 };

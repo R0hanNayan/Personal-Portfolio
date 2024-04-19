@@ -26,7 +26,8 @@ import {
     threejs,
     dailyScribble,
     socialSphere, 
-    keeper
+    keeper,
+    backIt
   } from "../assets";
   
   export const navLinks = [
@@ -247,6 +248,31 @@ import {
       ],
       image: keeper,
       source_code_link: "https://github.com/R0hanNayan/Keeper",
+    },
+    {
+      name: "BackIt",
+      description:
+        "A decentralized crowdfunding platform facilitating MetaMask wallet integration for ETH donations and campaign creation.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Solidity",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "ThirdWeb",
+          color: "green-text-gradient",
+        }
+      ],
+      image: keeper,
+      source_code_link: "https://github.com/R0hanNayan/BackIt",
     },
   ];
   
