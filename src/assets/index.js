@@ -22,10 +22,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import criss from "./company/criss.png";
+import dwh from "./company/dwh.png";
+import swoc from "./company/swoc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -34,6 +33,7 @@ import dailyScribble from "./dailyScribble.jpg";
 import socialSphere from "./socialSphere.jpg";
 import keeper from "./keeper.jpg";
 import backIt from "./backIt.jpg";
+import proxy from "./proxy.jpg";
 
 export {
   logo,
@@ -58,15 +58,15 @@ export {
   typescript,
   cpp,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   dailyScribble,
   socialSphere, 
   keeper,
-  backIt
+  backIt,
+  proxy,
+  dwh,
+  criss,
+  swoc
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from './components';
+import { AnimatedBackground } from 'animated-backgrounds';
 
 function App() {
   return (
@@ -11,13 +12,17 @@ function App() {
           <Hero />
         </div>
         <About />
-        {/* <Experience /> */}
+        <Experience />
         <Tech />
         <Works />
         {/* <Feedbacks /> */}
         <div className="realtive z-0">
           <Contact />
-          <StarsCanvas />
+          <AnimatedBackground
+            animationName="starryNight"
+            style={{ backgroundColor: 'rgb(0, 0, 0)' }}
+          />
+          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>

@@ -46,8 +46,7 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)} 
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am currently a third year computer science student at VIT Vellore. I am passionate about technology and have been actively learning programming languages such as C++, Python, and Java. I have experience working with web development technologies including  JavaScript, Node.js, Express.js, React.js and MongoDB. I have completed a few projects using these technologies to build web applications.
-        I am excited to continue learning and developing my skills in computer science and hope to one day contribute to the industry. I am actively seeking opportunities to gain experience and expand my knowledge.
+        Hi, I'm Rohan Nayan, a passionate software developer skilled in crafting innovative solutions using React, Solidity, and Node.js. From building decentralized platforms to optimizing web performance, I love turning ideas into impactful digital experiences.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

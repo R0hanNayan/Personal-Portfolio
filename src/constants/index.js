@@ -4,30 +4,16 @@ import {
     creator,
     web,
     javascript,
-    typescript,
-    html,
-    css,
     reactjs,
     cpp,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     dailyScribble,
-    socialSphere, 
-    keeper,
-    backIt
+    backIt,
+    proxy,
+    swoc,
+    dwh,
+    criss
   } from "../assets";
   
   export const navLinks = [
@@ -65,14 +51,6 @@ import {
   ];
   
   const technologies = [
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
     {
       name: "C++",
       icon: cpp,
@@ -93,63 +71,37 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Open Source Contributor",
+      company_name: "Social Winter of Code",
+      icon: swoc,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2025 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and integrated Text2ReadMe, an open-source tool automating README creation, into the SWOC repository via an initial GitHub pull request."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full Stack Developer Intern",
+      company_name: "Criss Cross Solutions LLP",
+      icon: criss,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Oct 2023 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a network performance monitoring tool using React, Node.js, Express, and MongoDB, delivering a responsive UI and seamless REST API integration for real-time diagnostics."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Engineer Intern",
+      company_name: "Delhi Web Hosting",
+      icon: dwh,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2023 - Sep 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Improved user experience and increased page load speed by 30% by enhancing the company’s website using HTML, CSS, JavaScript, jQuery, and Bootstrap, optimizing code structure, and implementing responsive design."
       ],
     },
   ];
@@ -183,6 +135,56 @@ import {
   
   const projects = [
     {
+      name: "Multi-Threaded Server",
+      description:
+        "Built a multi-threaded proxy server with LRU caching, improving performance by 40% and cutting cached response times by 90%.",
+      tags: [
+        {
+          name: "C",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C++",
+          color: "green-text-gradient",
+        },
+        {
+          name: "POSIX",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Multi-Threading",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: proxy,
+      source_code_link: "https://github.com/R0hanNayan/Multithreaded-Proxy-Web-Server",
+    },
+    {
+      name: "BackIt",
+      description:
+        "A decentralized crowdfunding platform facilitating MetaMask wallet integration for ETH donations and campaign creation.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Solidity",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "ThirdWeb",
+          color: "green-text-gradient",
+        }
+      ],
+      image: backIt,
+      source_code_link: "https://github.com/R0hanNayan/BackIt",
+    },
+    {
       name: "Daily Scribble",
       description:
         "Web-based platform that allows users to read, write and share their daily musings, thoughts, and ideas with others.",
@@ -207,73 +209,23 @@ import {
       image: dailyScribble,
       source_code_link: "https://github.com/R0hanNayan/Daily-Scribble-2.0",
     },
-    {
-      name: "SocialSphere",
-      description:
-        "Web application that enables users to connect and share their memories with others.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "nodeJs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "expressJs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: socialSphere,
-      source_code_link: "https://github.com/R0hanNayan/socialsphere",
-    },
-    {
-      name: "Keeper",
-      description:
-        "A Google Keep clone that helps user to keep track of their tasks.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: keeper,
-      source_code_link: "https://github.com/R0hanNayan/Keeper",
-    },
-    {
-      name: "BackIt",
-      description:
-        "A decentralized crowdfunding platform facilitating MetaMask wallet integration for ETH donations and campaign creation.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind css",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Solidity",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "ThirdWeb",
-          color: "green-text-gradient",
-        }
-      ],
-      image: keeper,
-      source_code_link: "https://github.com/R0hanNayan/BackIt",
-    },
+    // {
+    //   name: "Keeper",
+    //   description:
+    //     "A Google Keep clone that helps user to keep track of their tasks.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: keeper,
+    //   source_code_link: "https://github.com/R0hanNayan/Keeper",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
